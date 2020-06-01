@@ -9,6 +9,7 @@ class Student
   
   def self.create_table(name, grade)
     student = Student.new(name, grade)
+    student
   end 
 
   # Remember, you can access your database connection anywhere in this class
